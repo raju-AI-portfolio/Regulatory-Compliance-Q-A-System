@@ -164,8 +164,6 @@ The process flow diagram in the final report shows the complete sequence from:
 - Through retrieval, reranking, generation, and confidence scoring
 - To Airtable logging, Telegram alert, officer review, and final answer retrieval
 
-<img width="379" height="703" alt="Screenshot 2026-04-16 at 7 32 45 PM" src="https://github.com/user-attachments/assets/146ecee2-442d-444d-aa5d-e43dc48fc4f5" />
-
 
 <img width="664" height="1318" alt="image" src="https://github.com/user-attachments/assets/7d4154bf-21c2-47f6-b3ac-957341757140" />
 
