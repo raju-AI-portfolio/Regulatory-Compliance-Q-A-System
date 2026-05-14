@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+streamlit
+python-dotenv
+pydantic
+requests
+httpx
+openai
+cohere
+pinecone
+sentence-transformers
+pypdf
+notion-client
+airtable-python-wrapper
+pytest
+numpy
+faiss-cpu
