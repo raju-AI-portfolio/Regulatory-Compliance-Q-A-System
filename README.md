@@ -266,25 +266,7 @@ To minimize hallucinations and compliance risk, the platform includes a Human-in
 
 ### Workflow
 
-User Query
-    ↓
-RAG Retrieval
-    ↓
-Answer Generation
-    ↓
-Confidence Scoring
-    ↓
-Decision
- ┌──────────────┬──────────────┐
- │              │              │
-High         Low Confidence
-Confidence       ↓
- │           Human Review
- │               ↓
- │         Approval/Correction
- │               ↓
- └──────── Final Answer ───────┘
-
+<img width="1142" height="1378" alt="Human in Loop" src="https://github.com/user-attachments/assets/04ab2a2b-aba6-4103-aa9a-524bcbdcf5e5" />
 
 ### Human Review Components
 n8n Workflow Automation
