@@ -174,6 +174,17 @@ A core differentiator of this project is its governance-aware design.
 
 <img width="1847" height="852" alt="Security compliance and governance architecture" src="https://github.com/user-attachments/assets/aa5042a2-1e94-421b-945d-b4bcb3c40a7b" />
 
+# Governance Architecture
+
+The Regulatory Compliance Intelligent Assistant is governed through three complementary governance domains:
+
+| Governance Domain | Purpose |
+|-------------------|----------|
+| AI Governance | Ensures responsible, explainable and trustworthy AI |
+| Security & Compliance Governance | Protects sensitive data and enforces regulatory controls |
+| Operational Governance | Enables human oversight, auditability and continuous improvement |
+
+Together these governance domains ensure that AI-generated responses remain compliant with GDPR, HIPAA and NIST requirements while maintaining enterprise-grade security and operational controls.
 ### Airtable Audit Trail
 Every interaction is logged with:
 - question
