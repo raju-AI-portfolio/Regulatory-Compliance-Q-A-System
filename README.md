@@ -223,9 +223,8 @@ Explainable Decisions
 
 ---
 
-# Section 3: Security & Compliance Architecture
+# Security & Compliance Architecture
 
-```markdown
 ## Security & Compliance Architecture
 
 The platform is designed using a security-by-design and compliance-by-default approach.
