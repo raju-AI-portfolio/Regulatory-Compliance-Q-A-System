@@ -59,6 +59,18 @@ RAG chatbot that answers instantly from actual law documents, always cites the e
 "What happens if we have a data breach — who do we notify?"
 
 ## 🎯 Solution
+## Solution Architecture Diagram 
+
+The process flow diagram in the final report shows the complete sequence from:
+- User question entry in Streamlit
+- Through retrieval, reranking, generation, and confidence scoring
+- To Airtable logging, Telegram alert, officer review, and final answer retrieval
+
+
+<img width="1024" height="1536" alt="AI Solution Architecture for Regulatory Compliance poject " src="https://github.com/user-attachments/assets/7785adfe-0a9e-42d6-a7e1-e6c455ff26a7" />
+
+
+
 **Normal AI (problem)**
 Answers from memory : ChatGPT learned from the internet. For specific healthcare laws it may be wrong, outdated, or miss jurisdiction differences between HIPAA (US) and GDPR (EU).
 
