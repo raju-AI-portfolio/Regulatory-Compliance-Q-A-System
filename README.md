@@ -168,6 +168,11 @@ The solution uses official regulatory and standards documents as source material
 | **Human Review** | Python Telegram Bot | Officer review, correction, Airtable write-back |
 
 ---
+**Technology Architecture **
+
+<img width="1693" height="929" alt="Technology Architecture" src="https://github.com/user-attachments/assets/ba2db1c6-813d-4570-9329-ba75c8980107" />
+
+---
 
 ## ⚙️ 10-Stage RAG Pipeline
 
