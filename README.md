@@ -170,9 +170,11 @@ The process flow diagram in the final report shows the complete sequence from:
 
 ---
 
-## Governance and Human Review
-
+## Governance, Security and Compliance Architecture 
 A core differentiator of this project is its governance-aware design.
+
+<img width="1847" height="852" alt="Security compliance and governance architecture" src="https://github.com/user-attachments/assets/aa5042a2-1e94-421b-945d-b4bcb3c40a7b" />
+
 
 ### Airtable Audit Trail
 Every interaction is logged with:
