@@ -406,6 +406,12 @@ The final implemented system is a functioning, governance-aware regulatory compl
 
 
 
+**Compliance Officer Review (Human in Loop) demo on Telegram:**
+<img width="1125" height="836" alt="image" src="https://github.com/user-attachments/assets/99f680a1-018c-40e3-9cbb-2059957414b0" />
+<img width="1125" height="156" alt="image" src="https://github.com/user-attachments/assets/e518baad-2b98-4f87-bb66-5a0741631d1c" />
+
+
+
 ## Repository Structure
 
 A typical structure for this project is organized around ingestion, backend services, UI, and data layers.
