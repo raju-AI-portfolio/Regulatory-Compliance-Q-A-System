@@ -175,23 +175,6 @@ A core differentiator of this project is its governance-aware design.
 
 <img width="1847" height="852" alt="Security compliance and governance architecture" src="https://github.com/user-attachments/assets/aa5042a2-1e94-421b-945d-b4bcb3c40a7b" />
 
-## Architecture Diagrams
-
-### Solution Architecture
-
-![Solution Architecture](docs/solution-architecture.png)
-
-### AI Governance Architecture
-
-![AI Governance](docs/ai-governance-architecture.png)
-
-### Security & Compliance Architecture
-
-![Security Compliance](docs/security-compliance-architecture.png)
-
-### Operational Governance Architecture
-
-![Operational Governance](docs/operational-governance-architecture.png)
 ### Airtable Audit Trail
 Every interaction is logged with:
 - question
