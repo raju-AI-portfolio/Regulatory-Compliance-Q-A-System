@@ -186,7 +186,7 @@ The Regulatory Compliance Intelligent Assistant is governed through three comple
 
 Together these governance domains ensure that AI-generated responses remain compliant with GDPR, HIPAA and NIST requirements while maintaining enterprise-grade security and operational controls.
 
-## AI Governance Architecture
+# 1. AI Governance Architecture
 
 The platform applies governance across the complete AI lifecycle to ensure transparency, accountability and risk management.
 
@@ -223,9 +223,7 @@ Explainable Decisions
 
 ---
 
-# Security & Compliance Architecture
-
-## Security & Compliance Architecture
+# 2. Security & Compliance Architecture
 
 The platform is designed using a security-by-design and compliance-by-default approach.
 
@@ -262,7 +260,7 @@ The platform is designed using a security-by-design and compliance-by-default ap
 - Reduced Security Risk
 - Trusted AI Platform
 
-## Operational Governance & Human-in-the-Loop
+# 3. Operational Governance & Human-in-the-Loop
 
 To minimize hallucinations and compliance risk, the platform includes a Human-in-the-Loop (HITL) review process.
 
