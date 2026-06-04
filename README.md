@@ -118,6 +118,11 @@ Backend dashboard : Upload new PDFs. Run RAGAS evaluation. Monitor Langfuse trac
 
 ---
 
+# Data Architecture
+
+![Uploading Data Architecture.png…]()
+
+
 ## Data Coverage
 
 The solution uses official regulatory and standards documents as source material. Chunks are created at approximately **1,000 characters with 150-character overlap** and stored as Pinecone records. According to the final report, total stored records across all namespaces are **3,600**.
