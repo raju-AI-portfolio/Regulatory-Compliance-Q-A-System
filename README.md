@@ -269,24 +269,25 @@ To minimize hallucinations and compliance risk, the platform includes a Human-in
 <img width="1142" height="1378" alt="Human in Loop" src="https://github.com/user-attachments/assets/04ab2a2b-aba6-4103-aa9a-524bcbdcf5e5" />
 
 ### Human Review Components
-n8n Workflow Automation
-Telegram Review Channel
-Compliance Officer Review
-Airtable Audit Trail
-Approval / Correction Workflow
-Continuous Improvement
+- n8n Workflow Automation
+- Telegram Review Channel
+- Compliance Officer Review
+- Airtable Audit Trail
+- Approval / Correction Workflow
+- Continuous Improvement
 
 ### Reviewer feedback is used to improve:
 
-Prompt Engineering
-Retrieval Quality
-Knowledge Base Coverage
-Model Performance
+- Prompt Engineering
+- Retrieval Quality
+- Knowledge Base Coverage
+- Model Performance
+
 ### Outcome
-Human Accountability
-Traceable Decisions
-Continuous Learning
-Higher Answer Accuracy
+- Human Accountability
+- Traceable Decisions
+- Continuous Learning
+- Higher Answer Accuracy
 
 ---
 
