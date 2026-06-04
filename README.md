@@ -157,7 +157,7 @@ The solution uses official regulatory and standards documents as source material
 
 ---
 
-## Process Flow
+## Solution Architecture Diagram 
 
 The process flow diagram in the final report shows the complete sequence from:
 - User question entry in Streamlit
@@ -165,7 +165,7 @@ The process flow diagram in the final report shows the complete sequence from:
 - To Airtable logging, Telegram alert, officer review, and final answer retrieval
 
 
-<img width="664" height="1318" alt="image" src="https://github.com/user-attachments/assets/7d4154bf-21c2-47f6-b3ac-957341757140" />
+<img width="1024" height="1536" alt="AI Solution Architecture for Regulatory Compliance poject " src="https://github.com/user-attachments/assets/7785adfe-0a9e-42d6-a7e1-e6c455ff26a7" />
 
 
 ---
