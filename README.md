@@ -58,6 +58,18 @@ RAG chatbot that answers instantly from actual law documents, always cites the e
 
 "What happens if we have a data breach — who do we notify?"
 
+
+## TOGAF Architecture Mapping
+
+| Architecture Domain | Implementation |
+|---------------------|----------------|
+| Business Architecture | Compliance Operations, Risk Management |
+| Application Architecture | Streamlit, FastAPI, OpenAI, Cohere, n8n |
+| Data Architecture | Regulatory Corpus, Embeddings, Audit Metadata |
+| Technology Architecture | GCP, Pinecone, Airtable, Telegram |
+| Security Architecture | IAM, RBAC, Encryption, Audit Logging |
+| Governance Architecture | AI Governance, Compliance Governance, Operational Governance |
+
 ## 🎯 Solution
 ## Solution Architecture Diagram 
 
