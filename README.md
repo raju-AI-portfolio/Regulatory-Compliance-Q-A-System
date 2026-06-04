@@ -120,7 +120,7 @@ Backend dashboard : Upload new PDFs. Run RAGAS evaluation. Monitor Langfuse trac
 
 # Data Architecture
 
-![Uploading Data Architecture.png…]()
+<img width="1693" height="929" alt="DataArchitecture" src="https://github.com/user-attachments/assets/703e72d1-ba5b-4197-8e06-68a16e17188e" />
 
 
 ## Data Coverage
