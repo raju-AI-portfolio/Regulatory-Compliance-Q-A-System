@@ -185,24 +185,131 @@ The Regulatory Compliance Intelligent Assistant is governed through three comple
 | Operational Governance | Enables human oversight, auditability and continuous improvement |
 
 Together these governance domains ensure that AI-generated responses remain compliant with GDPR, HIPAA and NIST requirements while maintaining enterprise-grade security and operational controls.
-### Airtable Audit Trail
-Every interaction is logged with:
-- question
-- generated answer
-- citations
-- selected namespaces
-- confidence score
-- status
-- reviewed / final answer fields
 
-### Human Review Flow
-For low-confidence or ambiguous cases:
-- an alert is sent to Telegram
-- the compliance officer can approve or correct the answer
-- corrected output is written back to Airtable
-- the final answer can be fetched in the UI by record ID
+## AI Governance Architecture
 
-This design improves both auditability and operational safety in regulated use cases.
+The platform applies governance across the complete AI lifecycle to ensure transparency, accountability and risk management.
+
+### Key Capabilities
+
+- Responsible AI Principles
+- Model Governance
+- Prompt Governance
+- Hallucination Management
+- Human Oversight
+- Explainability & Traceability
+- Continuous Monitoring
+
+### AI Lifecycle Governance
+
+```text
+Plan → Build → Validate → Deploy → Monitor → Review → Improve
+
+### Governance Controls
+
+| Control Area           | Description                                        |
+| ---------------------- | -------------------------------------------------- |
+| Model Governance       | Model approval, versioning and monitoring          |
+| Prompt Governance      | Prompt review, testing and version control         |
+| Data Governance        | Source approval and lineage tracking               |
+| AI Risk Management     | Hallucination, bias and compliance risk management |
+| Performance Monitoring | Confidence, accuracy and drift monitoring          |
+
+### Outcome
+Trustworthy AI
+Reduced Risk
+Regulatory Alignment
+Explainable Decisions
+
+
+---
+
+# Section 3: Security & Compliance Architecture
+
+```markdown
+## Security & Compliance Architecture
+
+The platform is designed using a security-by-design and compliance-by-default approach.
+
+### Security Controls
+
+- Identity & Access Management (IAM)
+- Role-Based Access Control (RBAC)
+- Encryption In Transit (TLS)
+- Encryption At Rest
+- Secrets Management
+- Network Security
+- Audit Logging
+
+### Compliance Framework Support
+
+| Framework | Controls |
+|------------|------------|
+| GDPR | Data Minimization, Right to Access, Right to Erasure |
+| HIPAA | PHI Protection, Audit Controls, Access Controls |
+| NIST | Access Control, Risk Assessment, Incident Response |
+
+### Compliance Capabilities
+
+- Citation-Based Responses
+- Evidence Retention
+- Audit Trails
+- Regulatory Traceability
+- Human Review Workflow
+
+### Outcome
+
+- Audit Readiness
+- Regulatory Compliance
+- Reduced Security Risk
+- Trusted AI Platform
+
+## Operational Governance & Human-in-the-Loop
+
+To minimize hallucinations and compliance risk, the platform includes a Human-in-the-Loop (HITL) review process.
+
+### Workflow
+
+```text
+User Query
+    ↓
+RAG Retrieval
+    ↓
+Answer Generation
+    ↓
+Confidence Scoring
+    ↓
+Decision
+ ┌──────────────┬──────────────┐
+ │              │              │
+High         Low Confidence
+Confidence       ↓
+ │           Human Review
+ │               ↓
+ │         Approval/Correction
+ │               ↓
+ └──────── Final Answer ───────┘
+
+
+### Human Review Components
+n8n Workflow Automation
+Telegram Review Channel
+Compliance Officer Review
+Airtable Audit Trail
+Approval / Correction Workflow
+Continuous Improvement
+
+### Reviewer feedback is used to improve:
+
+Prompt Engineering
+Retrieval Quality
+Knowledge Base Coverage
+Model Performance
+### Outcome
+Human Accountability
+Traceable Decisions
+Continuous Learning
+Higher Answer Accuracy
 
 ---
 
