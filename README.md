@@ -202,7 +202,6 @@ The platform applies governance across the complete AI lifecycle to ensure trans
 
 ### AI Lifecycle Governance
 
-```text
 Plan → Build → Validate → Deploy → Monitor → Review → Improve
 
 ### Governance Controls
