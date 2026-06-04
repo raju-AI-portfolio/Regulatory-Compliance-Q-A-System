@@ -266,7 +266,6 @@ To minimize hallucinations and compliance risk, the platform includes a Human-in
 
 ### Workflow
 
-```text
 User Query
     ↓
 RAG Retrieval
