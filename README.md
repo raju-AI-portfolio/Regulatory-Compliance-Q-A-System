@@ -169,19 +169,6 @@ The solution uses official regulatory and standards documents as source material
 
 ---
 
-## Solution Architecture Diagram 
-
-The process flow diagram in the final report shows the complete sequence from:
-- User question entry in Streamlit
-- Through retrieval, reranking, generation, and confidence scoring
-- To Airtable logging, Telegram alert, officer review, and final answer retrieval
-
-
-<img width="1024" height="1536" alt="AI Solution Architecture for Regulatory Compliance poject " src="https://github.com/user-attachments/assets/7785adfe-0a9e-42d6-a7e1-e6c455ff26a7" />
-
-
----
-
 ## Governance, Security and Compliance Architecture 
 A core differentiator of this project is its governance-aware design.
 
